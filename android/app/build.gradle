@@ -22,10 +22,20 @@ if (flutterVersionName == null) {
 }
 
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
     compileSdkVersion 28
+
+    dependencies {
+
+        implementation 'com.google.firebase:firebase-analytics:17.2.2'
+        api 'com.google.firebase:firebase-ml-vision-image-label-model:17.0.2'
+
+    }
 
     lintOptions {
         disable 'InvalidPackage'
@@ -34,7 +44,7 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "recognitionapp.flutter.not_potato"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

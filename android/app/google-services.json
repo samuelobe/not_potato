@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747219883529",
+    "firebase_url": "https://not-potato.firebaseio.com",
+    "project_id": "not-potato",
+    "storage_bucket": "not-potato.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747219883529:android:d19fba368455585d310ad8",
+        "android_client_info": {
+          "package_name": "recognitionapp.flutter.not_potato"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747219883529-dpfghjtkgc1kaa0vkjct94jhh1oe624m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBahgXSrMa_Oqqvvg229E0Lyepj1LbiuhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747219883529-dpfghjtkgc1kaa0vkjct94jhh1oe624m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
